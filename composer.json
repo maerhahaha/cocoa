@@ -3,5 +3,10 @@
     "description": "she is my goods\b foo\b\brend",
     "type": "project",
     "license": "Apache-2.0",
-    "require": {}
+    "require": {},
+    "autoload": {
+	"psr-4": {
+	    "Hello\\": "src/test/"
+	}
+    }
 }
