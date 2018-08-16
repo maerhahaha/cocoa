@@ -1,7 +1,7 @@
 {
     "name": "maerhahaha/cocoa",
     "description": "she is my goods\b foo\b\brend",
-    "type": "project",
+    "type": "library",
     "license": "Apache-2.0",
     "require": {},
     "autoload": {
