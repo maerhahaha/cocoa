@@ -95,7 +95,7 @@ class MyReflection
                     $name = $reflection->getConstructor()->getParameters()[$key]->getName();
                     $class = $reflection->getName();
                     throw new \Exception("Missing required parameter \"$name\" when instantiating \"$class\".");
-                }echo 123;
+                }
             }
         }
         return $depends;
