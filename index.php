@@ -1,6 +1,6 @@
 <?php
 include './vendor/autoload.php';
-echo 123;echo 'test';
+echo 123;echo 'test';echo 'yyy';
 use Hello\SayThanks;
 
 SayThanks::sayhello();
